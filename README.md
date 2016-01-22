@@ -1,2 +1,2 @@
 # reddi
-A tiny, UMD script execute code when the DOM is ready
+A tiny, UMD script that executes code when the DOM is ready
