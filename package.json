@@ -1,0 +1,22 @@
+{
+  "name": "reddi",
+  "version": "0.0.1",
+  "description": "Execute code when the DOM is ready",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --modules umd reddi.js --out-dir lib", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ready",
+    "dom",
+    "load",
+    "on",
+    "complete"
+  ],
+  "author": "Nick Sandonato",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "5.8.21"
+  }
+}
