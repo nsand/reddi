@@ -4,7 +4,7 @@
   "description": "Execute code when the DOM is ready",
   "main": "index.js",
   "scripts": {
-    "build": "babel --modules umd reddi.js --out-dir lib",
+    "build": "babel --modules umd reddi.js --out-dir lib && uglifyjs lib/reddi.js -c -m -o lib/reddi.min.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push && git push --tags"
   },
@@ -19,6 +19,7 @@
   "author": "Nick Sandonato",
   "license": "MIT",
   "devDependencies": {
-    "babel": "5.8.21"
+    "babel": "5.8.21",
+    "uglify-js": "^2.6.1"
   }
 }
