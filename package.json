@@ -1,6 +1,6 @@
 {
   "name": "reddi",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Execute code when the DOM is ready",
   "main": "lib/reddi.js",
   "scripts": {
