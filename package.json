@@ -2,7 +2,7 @@
   "name": "reddi",
   "version": "0.0.4",
   "description": "Execute code when the DOM is ready",
-  "main": "index.js",
+  "main": "lib/reddi.js",
   "scripts": {
     "build": "babel --modules umd reddi.js --out-dir lib && uglifyjs lib/reddi.js -c -m -o lib/reddi.min.js",
     "test": "echo \"Error: no test specified\" && exit 1",
