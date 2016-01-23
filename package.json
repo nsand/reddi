@@ -13,7 +13,8 @@
     "dom",
     "load",
     "on",
-    "complete"
+    "complete",
+    "event"
   ],
   "author": "Nick Sandonato",
   "license": "MIT",
