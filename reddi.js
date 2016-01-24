@@ -1,4 +1,4 @@
-const doc = window.document;
+const doc = document;
 const dcl = 'DOMContentLoaded';
 const cbs = [];
 
