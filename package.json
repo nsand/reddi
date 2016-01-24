@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel --modules umd reddi.js --out-dir lib && uglifyjs lib/reddi.js -c -m -o lib/reddi.min.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "npm run build && git add .",
     "postversion": "git push && git push --tags"
   },
   "repository": {
@@ -19,6 +20,12 @@
     "on",
     "complete",
     "event"
+  ],
+  "files": [
+    "reddi.js",
+    "lib",
+    "LICENSE",
+    "README.md"
   ],
   "author": "Nick Sandonato",
   "license": "MIT",
