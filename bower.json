@@ -1,0 +1,30 @@
+{
+  "name": "reddi",
+  "description": "Execute code when the DOM is ready",
+  "main": "lib/reddi.min.js",
+  "authors": [
+    "Nick Sandonato"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ready",
+    "dom",
+    "load",
+    "on",
+    "complete",
+    "event"
+  ],
+  "homepage": "https://github.com/nsand/reddi",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
